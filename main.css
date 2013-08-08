@@ -1,0 +1,84 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.top-bar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	border-bottom: 1px solid #1c5380;
+	background-color: #517fa4;
+	-webkit-box-shadow: 0 1px 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	background-image: -webkit-linear-gradient(top, #517fa4, #306088);
+	text-align: center;
+	font-family: arial;
+}
+.title{
+	color: silver;
+	font-family: cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-left: 120px;
+}
+.feedPage{
+	background: #edeeef;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 43px;
+}
+.feed{
+	margin: 0 auto;
+	height: auto;
+	background: #E0E1E2;
+	width: 75%;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+}
+#search{
+	position: relative;
+	left: 20%;
+	bottom: 5px;
+	border-radius: 3px;
+	height: 18px
+}
+li{
+	display: inline;
+
+}
+img{
+	margin: 5px;
+	height: 250px;
+	width: 250px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 5px;
+	background: #406E95;
+	border-radius: 3px;
+}
+.scroll{
+	display: inline;
+	padding-bottom: 50px;
+	font-size: 40px;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	border-top: 1px solid rgb(219, 219, 219);
+	margin-top: 3px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 2px;
+	font-size: 15px;
+	background: gray;
+}
+.is-loading{
+	padding-bottom: 1000px;
+	background-image: url('http://jimpunk.net/Loading/wp-content/uploads/loading1.gif'); 
+}
+.no-pics{
+	font-size: 50px; 
+}

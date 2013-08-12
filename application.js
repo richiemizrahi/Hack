@@ -12,7 +12,7 @@ $(document).ready(function(){
     for(i=0;i<data.data.length;i++){
       var img = data.data[i].images.low_resolution.url;
       var link = data.data[i].link;
-      $('ul').append("<li><a href='"+link+"'><img src='"+img+"'></a></li>");
+      $('ul').append("<li class='fade-in'><a href='"+link+"'><img src='"+img+"'></a></li>");
     }
   });
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
           for(i=0;i<data.data.length;i++){
             var img = data.data[i].images.low_resolution.url;
             var link = data.data[i].link;
-            $('ul').append("<li><a href='"+link+"'><img src='"+img+"'></a></li>");
+            $('ul').append("<li class='fade-in'><a href='"+link+"'><img src='"+img+"'></a></li>");
           }
           killScroll = false;
           if(url != 'https://api.instagram.com/v1/media/popular')
